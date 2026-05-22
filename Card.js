@@ -1,7 +1,7 @@
 const listaproductos = [
     {
         id: 1,
-        nombre: "Gelatina celeste",
+        nombre: "Gelatina Tropical",
         descripcion: "Dulce celeste.",
         image: "https://scontent.flim23-1.fna.fbcdn.net/v/t1.6435-9/107376866_2938645462913819_5921215384822232475_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=l3Cb3NMYovsQ7kNvwE0T_2S&_nc_oc=AdqUkpPCmb1QGea9ugh4AAXC4VLt6mOsBEoCByp6xGJvAEr8wu2fLW7WGq7Ji5pBuTZHSqKUmXBsS5mIAt75Zx1p&_nc_zt=23&_nc_ht=scontent.flim23-1.fna&_nc_gid=pYLDvfj9xaJZaQtRCJzbxg&_nc_ss=7b289&oh=00_Af76vpzAOa6ZMdMMHr8AdXncLQjpUw_fbjuILy0UWUCrVg&oe=6A371ECC",
         categoria: "Dulce",
@@ -11,74 +11,45 @@ const listaproductos = [
     },
     {
         id: 2,
-        nombre: "ropa",
-        descripcion: "Set completo color rosa con corsé, falda de tul, ligueros y medias. Incluye collar y mangas desmontables.",
-        image: "https://scontent.flim23-1.fna.fbcdn.net/v/t1.6435-9/107701394_2938645502913815_486045314006707223_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LTjLqZKd4kQQ7kNvwFcwmj6&_nc_oc=Adoo-GjcAR3_Z64I5GTMB6P8qRlqHDVzIZ2dXvbMXrxBj0DOM7pY4reMtFl6G64j1qy7fM-q6Nh2gRRmfjYOb877&_nc_zt=23&_nc_ht=scontent.flim23-1.fna&_nc_gid=b75PCjFlKI9_srJkkIW1pA&_nc_ss=7b289&oh=00_Af4P5T3c208fQT3azrYx2aw9OV5Y4zg1huV7uIGLQEPPKg&oe=6A371232",
-        categoria: "ropa",
-        precio: 80.00,
+        nombre: "Gelatina frutal",
+        descripcion: "Dulce frutal con sabores dulces y citricos",
+        image: "https://i.pinimg.com/236x/0c/89/2e/0c892e6f088eba1f1eceed78fc2ec5f3.jpg",
+        categoria: "Dulce",
+        precio: 60.00,
         descuento: 90.00,
         botton: "Agregar"
     },
     {
         id: 3,
-        nombre: "ropa",
-        descripcion: "Set completo color rosa con corsé, falda de tul, ligueros y medias. Incluye collar y mangas desmontables.",
-        image: "https://scontent.flim23-1.fna.fbcdn.net/v/t1.6435-9/107701394_2938645502913815_486045314006707223_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LTjLqZKd4kQQ7kNvwFcwmj6&_nc_oc=Adoo-GjcAR3_Z64I5GTMB6P8qRlqHDVzIZ2dXvbMXrxBj0DOM7pY4reMtFl6G64j1qy7fM-q6Nh2gRRmfjYOb877&_nc_zt=23&_nc_ht=scontent.flim23-1.fna&_nc_gid=b75PCjFlKI9_srJkkIW1pA&_nc_ss=7b289&oh=00_Af4P5T3c208fQT3azrYx2aw9OV5Y4zg1huV7uIGLQEPPKg&oe=6A371232",
-        categoria: "ropa",
-        precio: 80.00,
-        descuento: 90.00,
+        nombre: "Gelatina Floral",
+        descripcion: "Dulce floral, con sabores dulces y cremosos.",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTAf8IZqTXVt9SGTHdcid3jM5N5xrCWRtPsVA&s",
+        categoria: "Dulce",
+        precio: 75.00,
+        descuento: 100.00,
         botton: "Agregar"
     },
     {
         id: 4,
-        nombre: "ropa",
+        nombre: "Gelatina Frutos rojos ",
         descripcion: "Set completo color rosa con corsé, falda de tul, ligueros y medias. Incluye collar y mangas desmontables.",
-        image: "https://scontent.flim23-1.fna.fbcdn.net/v/t1.6435-9/107701394_2938645502913815_486045314006707223_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LTjLqZKd4kQQ7kNvwFcwmj6&_nc_oc=Adoo-GjcAR3_Z64I5GTMB6P8qRlqHDVzIZ2dXvbMXrxBj0DOM7pY4reMtFl6G64j1qy7fM-q6Nh2gRRmfjYOb877&_nc_zt=23&_nc_ht=scontent.flim23-1.fna&_nc_gid=b75PCjFlKI9_srJkkIW1pA&_nc_ss=7b289&oh=00_Af4P5T3c208fQT3azrYx2aw9OV5Y4zg1huV7uIGLQEPPKg&oe=6A371232",
-        categoria: "ropa",
+        image: "https://img.delicious.com.au/w3UNaaq8/w1200/del/2024/01/summer-berry-jelly-205276-1.jpg",
+        categoria: "Dulce",
         precio: 80.00,
         descuento: 90.00,
         botton: "Agregar"
     },
     {
         id: 5,
-        nombre: "ropa",
+        nombre: "Gelatina Nube",
         descripcion: "Set completo color rosa con corsé, falda de tul, ligueros y medias. Incluye collar y mangas desmontables.",
-        image: "https://scontent.flim23-1.fna.fbcdn.net/v/t1.6435-9/107701394_2938645502913815_486045314006707223_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LTjLqZKd4kQQ7kNvwFcwmj6&_nc_oc=Adoo-GjcAR3_Z64I5GTMB6P8qRlqHDVzIZ2dXvbMXrxBj0DOM7pY4reMtFl6G64j1qy7fM-q6Nh2gRRmfjYOb877&_nc_zt=23&_nc_ht=scontent.flim23-1.fna&_nc_gid=b75PCjFlKI9_srJkkIW1pA&_nc_ss=7b289&oh=00_Af4P5T3c208fQT3azrYx2aw9OV5Y4zg1huV7uIGLQEPPKg&oe=6A371232",
-        categoria: "ropa",
-        precio: 80.00,
+        image: "https://cdn.greatlifepublishing.net/wp-content/uploads/sites/2/2022/07/21063910/cloud-01.jpg",
+        categoria: "CREMOSO",
+        precio: 60.00,
         descuento: 90.00,
         botton: "Agregar"
     },
-    {
-        id: 6,
-        nombre: "ropa",
-        descripcion: "Set completo color rosa con corsé, falda de tul, ligueros y medias. Incluye collar y mangas desmontables.",
-        image: "https://scontent.flim23-1.fna.fbcdn.net/v/t1.6435-9/107701394_2938645502913815_486045314006707223_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LTjLqZKd4kQQ7kNvwFcwmj6&_nc_oc=Adoo-GjcAR3_Z64I5GTMB6P8qRlqHDVzIZ2dXvbMXrxBj0DOM7pY4reMtFl6G64j1qy7fM-q6Nh2gRRmfjYOb877&_nc_zt=23&_nc_ht=scontent.flim23-1.fna&_nc_gid=b75PCjFlKI9_srJkkIW1pA&_nc_ss=7b289&oh=00_Af4P5T3c208fQT3azrYx2aw9OV5Y4zg1huV7uIGLQEPPKg&oe=6A371232",
-        categoria: "ropa",
-        precio: 80.00,
-        descuento: 90.00,
-        botton: "Agregar"
-    },
-    {
-        id: 7,
-        nombre: "ropa",
-        descripcion: "Set completo color rosa con corsé, falda de tul, ligueros y medias. Incluye collar y mangas desmontables.",
-        image: "https://scontent.flim23-1.fna.fbcdn.net/v/t1.6435-9/107701394_2938645502913815_486045314006707223_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LTjLqZKd4kQQ7kNvwFcwmj6&_nc_oc=Adoo-GjcAR3_Z64I5GTMB6P8qRlqHDVzIZ2dXvbMXrxBj0DOM7pY4reMtFl6G64j1qy7fM-q6Nh2gRRmfjYOb877&_nc_zt=23&_nc_ht=scontent.flim23-1.fna&_nc_gid=b75PCjFlKI9_srJkkIW1pA&_nc_ss=7b289&oh=00_Af4P5T3c208fQT3azrYx2aw9OV5Y4zg1huV7uIGLQEPPKg&oe=6A371232",
-        categoria: "ropa",
-        precio: 80.00,
-        descuento: 90.00,
-        botton: "Agregar"
-    },
-    {
-        id: 8,
-        nombre: "ropa",
-        descripcion: "Set completo color rosa con corsé, falda de tul, ligueros y medias. Incluye collar y mangas desmontables.",
-        image: "https://scontent.flim23-1.fna.fbcdn.net/v/t1.6435-9/107701394_2938645502913815_486045314006707223_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=833d8c&_nc_ohc=LTjLqZKd4kQQ7kNvwFcwmj6&_nc_oc=Adoo-GjcAR3_Z64I5GTMB6P8qRlqHDVzIZ2dXvbMXrxBj0DOM7pY4reMtFl6G64j1qy7fM-q6Nh2gRRmfjYOb877&_nc_zt=23&_nc_ht=scontent.flim23-1.fna&_nc_gid=b75PCjFlKI9_srJkkIW1pA&_nc_ss=7b289&oh=00_Af4P5T3c208fQT3azrYx2aw9OV5Y4zg1huV7uIGLQEPPKg&oe=6A371232",
-        categoria: "ropa",
-        precio: 80.00,
-        descuento: 90.00,
-        botton: "Agregar"
-    },
+    
 ];
 
 let productitem = document.getElementById("productos");
@@ -88,7 +59,7 @@ listaproductos.forEach((product) => {
                 <span class="product-tag tag-bestseller">Más Vendido</span>
                 <img src="${product.image}" alt="Set Princesa Rosa" class="product-image">
                 <div class="product-info">
-                    <div class="product-category">Dulce</div>
+                    <div class="product-category">${product.categoria}</div>
                     <h3 class="product-name">${product.nombre}</h3>
                     <p class="product-description">${product.descripcion}</p>
                     <div class="product-footer">
